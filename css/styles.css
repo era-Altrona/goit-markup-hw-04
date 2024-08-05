@@ -437,6 +437,7 @@ h2 {
 .ul-icons-footer {
     display: flex;
     gap: 16px;
+    padding: 0;
 }
 .icon-link {
     fill: #f4f4fd;
