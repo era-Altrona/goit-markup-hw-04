@@ -257,6 +257,7 @@ p {
     display: flex;
     background-color: var(--iris);
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-icons {  
     width: 40px;
@@ -444,12 +445,7 @@ h2 {
 .icon-link {
     fill: #f4f4fd;
 }
-.container-icon-link-footer {
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 .footer a {    
     margin-bottom:16px;
 }
